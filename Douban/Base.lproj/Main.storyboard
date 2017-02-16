@@ -31,7 +31,7 @@
         <!--推荐-->
         <scene sceneID="Gcs-s0-1zP">
             <objects>
-                <viewController id="G0n-Ae-gKy" customClass="GalleryViewController" customModule="Douban" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="G0n-Ae-gKy" customClass="RecommendationViewController" customModule="Douban" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xXm-uP-yGv"/>
                         <viewControllerLayoutGuide type="bottom" id="p5n-ZC-pnX"/>

@@ -17,7 +17,7 @@
 		7C1EEDCB1E55A3CA00D8AE22 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1EEDCA1E55A3CA00D8AE22 /* AFNetworking.framework */; };
 		7C1EEDCC1E55A3CA00D8AE22 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1EEDCA1E55A3CA00D8AE22 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7C4582041E544FAE001D5819 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4582031E544FAE001D5819 /* AppDelegate.swift */; };
-		7C4582061E544FAE001D5819 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4582051E544FAE001D5819 /* GalleryViewController.swift */; };
+		7C4582061E544FAE001D5819 /* RecommendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4582051E544FAE001D5819 /* RecommendationViewController.swift */; };
 		7C4582091E544FAE001D5819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4582071E544FAE001D5819 /* Main.storyboard */; };
 		7C45820B1E544FAE001D5819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C45820A1E544FAE001D5819 /* Assets.xcassets */; };
 		7C45820E1E544FAE001D5819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C45820C1E544FAE001D5819 /* LaunchScreen.storyboard */; };
@@ -53,7 +53,7 @@
 		7C1EEDDB1E55A50F00D8AE22 /* Douban-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Douban-Bridging-Header.h"; sourceTree = "<group>"; };
 		7C4582001E544FAE001D5819 /* Douban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douban.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C4582031E544FAE001D5819 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C4582051E544FAE001D5819 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		7C4582051E544FAE001D5819 /* RecommendationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationViewController.swift; sourceTree = "<group>"; };
 		7C4582081E544FAE001D5819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C45820A1E544FAE001D5819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C45820D1E544FAE001D5819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 				7C1EEDC71E5597F900D8AE22 /* Network */,
 				7CC83A7A1E55498E0068A05A /* Service */,
 				7C4582161E545A23001D5819 /* Recommendation */,
-				7C4582051E544FAE001D5819 /* GalleryViewController.swift */,
+				7C4582051E544FAE001D5819 /* RecommendationViewController.swift */,
 				7C1EEDBC1E558E0A00D8AE22 /* MeViewController.swift */,
 				7C4582071E544FAE001D5819 /* Main.storyboard */,
 				7C4582031E544FAE001D5819 /* AppDelegate.swift */,
@@ -247,7 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C1EEDBD1E558E0A00D8AE22 /* MeViewController.swift in Sources */,
-				7C4582061E544FAE001D5819 /* GalleryViewController.swift in Sources */,
+				7C4582061E544FAE001D5819 /* RecommendationViewController.swift in Sources */,
 				7C1EEDC21E558F9F00D8AE22 /* RecommendationPresenterImp.swift in Sources */,
 				7C1EEDC01E558F8A00D8AE22 /* RecommendationPresenter.swift in Sources */,
 				7C1EEDC61E5596F200D8AE22 /* InThreatersMoviesNetworkService.swift in Sources */,
