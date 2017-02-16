@@ -3,10 +3,11 @@
 //
 
 import Foundation
+import ObjectMapper
 
 protocol InThreatersMoviesNetworkService {
   
-  func fetchInThreatersMovies(from city: String, completion: (([Movie]) -> ())?)
+  func fetchInThreatersMovies(from city: String, completion: ((Any?, Error?) -> ())?)
 }
 
 class InThreatersMoviesNetworkServiceImp: InThreatersMoviesNetworkService {
@@ -17,17 +18,9 @@ class InThreatersMoviesNetworkServiceImp: InThreatersMoviesNetworkService {
     client = ClientImp("https://api.douban.com/v2")
   }
   
-  func fetchInThreatersMovies(from city: String, completion: (([Movie]) -> ())?) {
+  func fetchInThreatersMovies(from city: String, completion: ((Any?, Error?) -> ())?) {
     client.get(urlForInTheatersMovies(), parameters:URLParameters(city)) { response, error in
-      guard let response = response as? Dictionary<String, Any> else {
-        completion?([])
-        return
-      }
-      let subjects = response["subjects"]
-      guard let subject = subjects else {
-        return
-      }
-      print(subject)
+      completion?(response, error)
     }
   }
   
