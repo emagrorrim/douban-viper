@@ -1,0 +1,28 @@
+# Git Noise
+*.orig
+*.BACKUP.*
+*.REMOTE.*
+*.LOCAL.*
+*.BASE.*
+
+# Carthage noise
+Carthage/
+
+# OSX Noise
+.DS_Store
+
+# Xcode Noise
+build/
+dist/
+.idea/
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+*.xcuserdatad
+*.trace
+*project.xcworkspace/
+*.log
+*.xccheckout
+*.xcscmblueprint
