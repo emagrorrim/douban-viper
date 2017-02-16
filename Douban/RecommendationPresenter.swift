@@ -4,6 +4,6 @@
 
 import Foundation
 
-protocol GalleryPresentater {
+protocol RecommendationPresentater {
   
 }

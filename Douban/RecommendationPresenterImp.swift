@@ -4,6 +4,6 @@
 
 import Foundation
 
-class GalleryPresentaterImp {
+class RecommendationPresentaterImp {
   
 }

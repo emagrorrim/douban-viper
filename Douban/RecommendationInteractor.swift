@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol GalleryInteractor {
+protocol RecommendationInteractor {
   
   func fetchInTheatersMovies(completion: (Dictionary<String, Any>) -> ())
 }

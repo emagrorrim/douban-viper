@@ -26,3 +26,6 @@ dist/
 *.log
 *.xccheckout
 *.xcscmblueprint
+Douban.xcworkspace/
+xcuserdata/
+Douban.xcodeproj/project.xcworkspace/xcuserdata/xinguo.xcuserdatad/UserInterfaceState.xcuserstate

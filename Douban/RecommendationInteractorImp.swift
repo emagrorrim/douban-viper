@@ -8,7 +8,7 @@
 
 import Foundation
 
-class GalleryInteractorImp: GalleryInteractor {
+class RecommendationInteractorImp: RecommendationInteractor {
   let inThreatersMoviesNetworkService :InThreatersMoviesNetworkService
   
   init(networkService: InThreatersMoviesNetworkService) {

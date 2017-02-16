@@ -12,6 +12,8 @@ class GalleryViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    let aa = InThreatersMoviesNetworkServiceImp()
+    aa.fetchInThreatersMovies(from: "西安", completion: nil)
   }
 
 }
