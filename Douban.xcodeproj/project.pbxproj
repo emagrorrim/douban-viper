@@ -9,19 +9,25 @@
 /* Begin PBXBuildFile section */
 		7C1EEDBB1E558A1000D8AE22 /* MovieEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EEDBA1E558A1000D8AE22 /* MovieEntity.swift */; };
 		7C1EEDBD1E558E0A00D8AE22 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EEDBC1E558E0A00D8AE22 /* MeViewController.swift */; };
-		7C1EEDC01E558F8A00D8AE22 /* RecommendationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EEDBF1E558F8A00D8AE22 /* RecommendationPresenter.swift */; };
-		7C1EEDC21E558F9F00D8AE22 /* RecommendationPresenterImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EEDC11E558F9F00D8AE22 /* RecommendationPresenterImp.swift */; };
-		7C1EEDC41E55951100D8AE22 /* RecommendationInteractorImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EEDC31E55951100D8AE22 /* RecommendationInteractorImp.swift */; };
+		7C1EEDC21E558F9F00D8AE22 /* RecommendationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EEDC11E558F9F00D8AE22 /* RecommendationPresenter.swift */; };
+		7C1EEDC41E55951100D8AE22 /* RecommendationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EEDC31E55951100D8AE22 /* RecommendationInteractor.swift */; };
 		7C1EEDC61E5596F200D8AE22 /* InThreatersMoviesNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EEDC51E5596F200D8AE22 /* InThreatersMoviesNetworkService.swift */; };
 		7C1EEDC91E55988200D8AE22 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EEDC81E55988200D8AE22 /* NetworkClient.swift */; };
 		7C1EEDCB1E55A3CA00D8AE22 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1EEDCA1E55A3CA00D8AE22 /* AFNetworking.framework */; };
 		7C1EEDCC1E55A3CA00D8AE22 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1EEDCA1E55A3CA00D8AE22 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C33804E1E5AAF3000E59C81 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3380491E5AAF3000E59C81 /* RxBlocking.framework */; };
+		7C33804F1E5AAF3000E59C81 /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3380491E5AAF3000E59C81 /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C3380501E5AAF3000E59C81 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C33804A1E5AAF3000E59C81 /* RxCocoa.framework */; };
+		7C3380511E5AAF3000E59C81 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C33804A1E5AAF3000E59C81 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C3380521E5AAF3000E59C81 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C33804B1E5AAF3000E59C81 /* RxSwift.framework */; };
+		7C3380531E5AAF3000E59C81 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C33804B1E5AAF3000E59C81 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C3380561E5AAF3000E59C81 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C33804D1E5AAF3000E59C81 /* Swinject.framework */; };
+		7C3380571E5AAF3000E59C81 /* Swinject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C33804D1E5AAF3000E59C81 /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7C4582041E544FAE001D5819 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4582031E544FAE001D5819 /* AppDelegate.swift */; };
 		7C4582061E544FAE001D5819 /* RecommendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4582051E544FAE001D5819 /* RecommendationViewController.swift */; };
 		7C4582091E544FAE001D5819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4582071E544FAE001D5819 /* Main.storyboard */; };
 		7C45820B1E544FAE001D5819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C45820A1E544FAE001D5819 /* Assets.xcassets */; };
 		7C45820E1E544FAE001D5819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C45820C1E544FAE001D5819 /* LaunchScreen.storyboard */; };
-		7CC83A791E55462E0068A05A /* RecommendationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC83A781E55462E0068A05A /* RecommendationInteractor.swift */; };
 		7CC987F31E55DBD400919003 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC987F21E55DBD400919003 /* ObjectMapper.framework */; };
 		7CC987F41E55DBD400919003 /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC987F21E55DBD400919003 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -33,8 +39,12 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				7C3380531E5AAF3000E59C81 /* RxSwift.framework in Embed Frameworks */,
+				7C3380571E5AAF3000E59C81 /* Swinject.framework in Embed Frameworks */,
+				7C3380511E5AAF3000E59C81 /* RxCocoa.framework in Embed Frameworks */,
 				7CC987F41E55DBD400919003 /* ObjectMapper.framework in Embed Frameworks */,
 				7C1EEDCC1E55A3CA00D8AE22 /* AFNetworking.framework in Embed Frameworks */,
+				7C33804F1E5AAF3000E59C81 /* RxBlocking.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,13 +54,16 @@
 /* Begin PBXFileReference section */
 		7C1EEDBA1E558A1000D8AE22 /* MovieEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieEntity.swift; sourceTree = "<group>"; };
 		7C1EEDBC1E558E0A00D8AE22 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
-		7C1EEDBF1E558F8A00D8AE22 /* RecommendationPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendationPresenter.swift; sourceTree = "<group>"; };
-		7C1EEDC11E558F9F00D8AE22 /* RecommendationPresenterImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendationPresenterImp.swift; sourceTree = "<group>"; };
-		7C1EEDC31E55951100D8AE22 /* RecommendationInteractorImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendationInteractorImp.swift; sourceTree = "<group>"; };
+		7C1EEDC11E558F9F00D8AE22 /* RecommendationPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendationPresenter.swift; sourceTree = "<group>"; };
+		7C1EEDC31E55951100D8AE22 /* RecommendationInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendationInteractor.swift; sourceTree = "<group>"; };
 		7C1EEDC51E5596F200D8AE22 /* InThreatersMoviesNetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InThreatersMoviesNetworkService.swift; sourceTree = "<group>"; };
 		7C1EEDC81E55988200D8AE22 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		7C1EEDCA1E55A3CA00D8AE22 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
 		7C1EEDDB1E55A50F00D8AE22 /* Douban-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Douban-Bridging-Header.h"; sourceTree = "<group>"; };
+		7C3380491E5AAF3000E59C81 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		7C33804A1E5AAF3000E59C81 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		7C33804B1E5AAF3000E59C81 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		7C33804D1E5AAF3000E59C81 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
 		7C4582001E544FAE001D5819 /* Douban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douban.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C4582031E544FAE001D5819 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C4582051E544FAE001D5819 /* RecommendationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +71,6 @@
 		7C45820A1E544FAE001D5819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C45820D1E544FAE001D5819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C45820F1E544FAE001D5819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7CC83A781E55462E0068A05A /* RecommendationInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendationInteractor.swift; sourceTree = "<group>"; };
 		7CC987F21E55DBD400919003 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,8 +79,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C3380521E5AAF3000E59C81 /* RxSwift.framework in Frameworks */,
+				7C3380561E5AAF3000E59C81 /* Swinject.framework in Frameworks */,
+				7C3380501E5AAF3000E59C81 /* RxCocoa.framework in Frameworks */,
 				7CC987F31E55DBD400919003 /* ObjectMapper.framework in Frameworks */,
 				7C1EEDCB1E55A3CA00D8AE22 /* AFNetworking.framework in Frameworks */,
+				7C33804E1E5AAF3000E59C81 /* RxBlocking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,8 +94,7 @@
 		7C1EEDB81E55898000D8AE22 /* Interator */ = {
 			isa = PBXGroup;
 			children = (
-				7CC83A781E55462E0068A05A /* RecommendationInteractor.swift */,
-				7C1EEDC31E55951100D8AE22 /* RecommendationInteractorImp.swift */,
+				7C1EEDC31E55951100D8AE22 /* RecommendationInteractor.swift */,
 			);
 			name = Interator;
 			sourceTree = "<group>";
@@ -95,8 +110,7 @@
 		7C1EEDBE1E558F6600D8AE22 /* Presentater */ = {
 			isa = PBXGroup;
 			children = (
-				7C1EEDBF1E558F8A00D8AE22 /* RecommendationPresenter.swift */,
-				7C1EEDC11E558F9F00D8AE22 /* RecommendationPresenterImp.swift */,
+				7C1EEDC11E558F9F00D8AE22 /* RecommendationPresenter.swift */,
 			);
 			name = Presentater;
 			sourceTree = "<group>";
@@ -112,6 +126,10 @@
 		7C1EEDCE1E55A3D400D8AE22 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				7C3380491E5AAF3000E59C81 /* RxBlocking.framework */,
+				7C33804A1E5AAF3000E59C81 /* RxCocoa.framework */,
+				7C33804B1E5AAF3000E59C81 /* RxSwift.framework */,
+				7C33804D1E5AAF3000E59C81 /* Swinject.framework */,
 				7CC987F21E55DBD400919003 /* ObjectMapper.framework */,
 				7C1EEDCA1E55A3CA00D8AE22 /* AFNetworking.framework */,
 			);
@@ -141,7 +159,6 @@
 				7C1EEDC71E5597F900D8AE22 /* Network */,
 				7CC83A7A1E55498E0068A05A /* Service */,
 				7C4582161E545A23001D5819 /* Recommendation */,
-				7C4582051E544FAE001D5819 /* RecommendationViewController.swift */,
 				7C1EEDBC1E558E0A00D8AE22 /* MeViewController.swift */,
 				7C4582071E544FAE001D5819 /* Main.storyboard */,
 				7C4582031E544FAE001D5819 /* AppDelegate.swift */,
@@ -156,8 +173,10 @@
 		7C4582161E545A23001D5819 /* Recommendation */ = {
 			isa = PBXGroup;
 			children = (
-				7C1EEDBE1E558F6600D8AE22 /* Presentater */,
+				7CE60F451E570374002CB1FA /* Model */,
 				7C1EEDB91E55899C00D8AE22 /* Entity */,
+				7CE60F441E56EAD3002CB1FA /* View */,
+				7C1EEDBE1E558F6600D8AE22 /* Presentater */,
 				7C1EEDB81E55898000D8AE22 /* Interator */,
 			);
 			name = Recommendation;
@@ -169,6 +188,21 @@
 				7C1EEDC51E5596F200D8AE22 /* InThreatersMoviesNetworkService.swift */,
 			);
 			name = Service;
+			sourceTree = "<group>";
+		};
+		7CE60F441E56EAD3002CB1FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7C4582051E544FAE001D5819 /* RecommendationViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7CE60F451E570374002CB1FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,14 +282,12 @@
 			files = (
 				7C1EEDBD1E558E0A00D8AE22 /* MeViewController.swift in Sources */,
 				7C4582061E544FAE001D5819 /* RecommendationViewController.swift in Sources */,
-				7C1EEDC21E558F9F00D8AE22 /* RecommendationPresenterImp.swift in Sources */,
-				7C1EEDC01E558F8A00D8AE22 /* RecommendationPresenter.swift in Sources */,
+				7C1EEDC21E558F9F00D8AE22 /* RecommendationPresenter.swift in Sources */,
 				7C1EEDC61E5596F200D8AE22 /* InThreatersMoviesNetworkService.swift in Sources */,
 				7C1EEDBB1E558A1000D8AE22 /* MovieEntity.swift in Sources */,
-				7C1EEDC41E55951100D8AE22 /* RecommendationInteractorImp.swift in Sources */,
+				7C1EEDC41E55951100D8AE22 /* RecommendationInteractor.swift in Sources */,
 				7C4582041E544FAE001D5819 /* AppDelegate.swift in Sources */,
 				7C1EEDC91E55988200D8AE22 /* NetworkClient.swift in Sources */,
-				7CC83A791E55462E0068A05A /* RecommendationInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -49,7 +49,7 @@ struct Rating: Mappable {
     max     <- map["max"]
     min     <- map["min"]
     average <- map["average"]
-    stars   <- map["star"]
+    stars   <- map["stars"]
   }
 }
 

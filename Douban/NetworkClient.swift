@@ -1,8 +1,4 @@
 //
-//  Client.swift
-//  Douban
-//
-//  Created by Guo Xin on 2/16/17.
 //  Copyright © 2017 XinGuo. All rights reserved.
 //
 
@@ -12,7 +8,7 @@ protocol NetworkClient {
   func get(_ path: String, parameters: Dictionary<String, Any>, completion: @escaping (Any?, Error?) -> ())
 }
 
-class ClientImp: NetworkClient {
+class NetworkClientImp: NetworkClient {
   private let networkingManager: AFHTTPSessionManager
   
   init(_ baseURL: String) {

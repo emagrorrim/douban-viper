@@ -7,19 +7,15 @@ import ObjectMapper
 
 protocol InThreatersMoviesNetworkService {
   
-  func fetchInThreatersMovies(from city: String, completion: ((Any?, Error?) -> ())?)
+  func fetchInThreatersMovies(in city: String, completion: ((Any?, Error?) -> ())?)
 }
 
 class InThreatersMoviesNetworkServiceImp: InThreatersMoviesNetworkService {
-  private var client: NetworkClient
+  private let client: NetworkClient? = container.resolve(NetworkClient.self, name: "InThreaters")
   private let maxMoviesCount = 6
   
-  init() {
-    client = ClientImp("https://api.douban.com/v2")
-  }
-  
-  func fetchInThreatersMovies(from city: String, completion: ((Any?, Error?) -> ())?) {
-    client.get(urlForInTheatersMovies(), parameters:URLParameters(city)) { response, error in
+  func fetchInThreatersMovies(in city: String, completion: ((Any?, Error?) -> ())?) {
+    client?.get(urlForInTheatersMovies(), parameters:URLParameters(city)) { response, error in
       completion?(response, error)
     }
   }
