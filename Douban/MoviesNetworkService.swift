@@ -5,23 +5,33 @@
 import Foundation
 import ObjectMapper
 
-protocol InThreatersMoviesNetworkService {
-  
+protocol MoviesNetworkService {
   func fetchInThreatersMovies(in city: String, completion: ((Any?, Error?) -> ())?)
+  func fetchComingSoonMovies(in city: String, completion: ((Any?, Error?) -> ())?)
 }
 
-class InThreatersMoviesNetworkServiceImp: InThreatersMoviesNetworkService {
+class MoviesNetworkServiceImp: MoviesNetworkService {
   private let client: NetworkClient? = container.resolve(NetworkClient.self, name: "InThreaters")
   private let maxMoviesCount = 6
   
   func fetchInThreatersMovies(in city: String, completion: ((Any?, Error?) -> ())?) {
-    client?.get(urlForInTheatersMovies(), parameters:URLParameters(city)) { response, error in
+    client?.get(urlForInTheatersMovies, parameters:URLParameters(city)) { response, error in
       completion?(response, error)
     }
   }
   
-  private func urlForInTheatersMovies() -> String {
+  func fetchComingSoonMovies(in city: String, completion: ((Any?, Error?) -> ())?) {
+    client?.get(urlForComingSoonMovies, parameters:URLParameters(city)) { response, error in
+      completion?(response, error)
+    }
+  }
+  
+  private var urlForInTheatersMovies: String {
     return "movie/in_theaters"
+  }
+  
+  private var urlForComingSoonMovies: String {
+    return "movie/coming_soon"
   }
   
   private func URLParameters(_ city: String) -> Dictionary<String, Any> {

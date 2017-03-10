@@ -14,27 +14,42 @@ protocol RecommendationView {
 }
 
 class RecommendationViewController: UIViewController, RecommendationView {
-  @IBOutlet weak var textView: UITextView!
+  @IBOutlet var tableView: UITableView!
   
   let disposeBag = DisposeBag()
-  
-  var recommendationPresenter: RecommendationPresentater? = container.resolve(RecommendationPresentater.self)
+  let presenter: RecommendationPresentater? = container.resolve(RecommendationPresentater.self)
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    setupInThreaterMoviesObserver()
-    
-    recommendationPresenter?.fetchMovies()
+    setupTableView()
   }
   
-  private func setupInThreaterMoviesObserver() {
-    guard let recommendationPresenter = recommendationPresenter else {
-      return
-    }
-    
-    recommendationPresenter.allMovies().asObservable()
-      .map({ $0.description })
-      .bindTo(textView.rx.text)
-      .disposed(by: disposeBag)
+  private func setupTableView() {
+    tableView.separatorStyle = .none
+    tableView.allowsSelection = false
+    tableView.register(UINib(nibName: "MovieSectionCell", bundle: nil), forCellReuseIdentifier: "MovieGalleryCell")
   }
+}
+
+extension RecommendationViewController: UITableViewDataSource {
+  func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return presenter?.sections.count ?? 0
+  }
+  
+  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    guard let cell = tableView.dequeueReusableCell(withIdentifier: "MovieGalleryCell", for: indexPath) as? MovieSectionCell,
+      let presenter = presenter else {
+      return UITableViewCell()
+    }
+    cell.configureCell(with: presenter.allMovies(), delegate: presenter)
+    return cell
+  }
+  
+  func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    return 175 + 60
+  }
+}
+
+extension RecommendationViewController: UITableViewDelegate {
+  
 }
