@@ -27,4 +27,5 @@ let container = Container() { c in
   c.register(RecommendationInteractor.self) { _ in RecommendationInteractorImp() }
   c.register(RecommendationPresentater.self) { _ in RecommendationPresentaterImp() }
   c.register(MoviesSectionSelectorPresenter.self) { _ in MoviesSectionSelectorPresenterImp() }
+  c.register(MovieRepository.self) { _ in MovieRepositoryImp() }
 }

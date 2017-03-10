@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		7C00AAA91E6046D1007F9256 /* MoviesSectionSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C00AAA71E6046D1007F9256 /* MoviesSectionSelectorView.swift */; };
 		7C12FDEB1E67BE9E00E324C0 /* GalleryMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C12FDEA1E67BE9E00E324C0 /* GalleryMovie.swift */; };
-		7C1EEDBB1E558A1000D8AE22 /* MovieEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EEDBA1E558A1000D8AE22 /* MovieEntity.swift */; };
+		7C1EEDBB1E558A1000D8AE22 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EEDBA1E558A1000D8AE22 /* Movie.swift */; };
 		7C1EEDBD1E558E0A00D8AE22 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EEDBC1E558E0A00D8AE22 /* MeViewController.swift */; };
 		7C1EEDC21E558F9F00D8AE22 /* RecommendationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EEDC11E558F9F00D8AE22 /* RecommendationPresenter.swift */; };
 		7C1EEDC41E55951100D8AE22 /* RecommendationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EEDC31E55951100D8AE22 /* RecommendationInteractor.swift */; };
@@ -66,7 +66,7 @@
 /* Begin PBXFileReference section */
 		7C00AAA71E6046D1007F9256 /* MoviesSectionSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoviesSectionSelectorView.swift; path = ../MoviesSectionSelectorView.swift; sourceTree = "<group>"; };
 		7C12FDEA1E67BE9E00E324C0 /* GalleryMovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryMovie.swift; sourceTree = "<group>"; };
-		7C1EEDBA1E558A1000D8AE22 /* MovieEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieEntity.swift; sourceTree = "<group>"; };
+		7C1EEDBA1E558A1000D8AE22 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		7C1EEDBC1E558E0A00D8AE22 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		7C1EEDC11E558F9F00D8AE22 /* RecommendationPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendationPresenter.swift; sourceTree = "<group>"; };
 		7C1EEDC31E55951100D8AE22 /* RecommendationInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendationInteractor.swift; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 		7C1EEDB91E55899C00D8AE22 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				7C1EEDBA1E558A1000D8AE22 /* MovieEntity.swift */,
+				7C1EEDBA1E558A1000D8AE22 /* Movie.swift */,
 			);
 			name = Entity;
 			sourceTree = "<group>";
@@ -369,7 +369,7 @@
 				7C269B111E729C4F00E2EA02 /* UIView+UpdateSubviews.swift in Sources */,
 				7C1EEDC21E558F9F00D8AE22 /* RecommendationPresenter.swift in Sources */,
 				7C1EEDC61E5596F200D8AE22 /* MoviesNetworkService.swift in Sources */,
-				7C1EEDBB1E558A1000D8AE22 /* MovieEntity.swift in Sources */,
+				7C1EEDBB1E558A1000D8AE22 /* Movie.swift in Sources */,
 				7C1EEDC41E55951100D8AE22 /* RecommendationInteractor.swift in Sources */,
 				7C269B141E729F3700E2EA02 /* MovieRepository.swift in Sources */,
 				7CC1D84C1E6406F000E3B41E /* MoviesSectionSelectorPresenter.swift in Sources */,
